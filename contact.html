@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+            box-sizing: border-box;
+
+        }
+
+
+        .format {
+            width: 100%;
+            height: 110vh;
+            background-image: url(tr3.2.jpg);
+           background-position: center;
+            background-size: cover;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0%;
+        }
+
+        .head {
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .head ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .head ul li {
+            list-style: none;
+            margin: 0 24px;
+
+        }
+
+        .head ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .head ul li a:hover {
+            color: rgb(175, 35, 175);
+            font-size: 1.05rem;
+            
+        }
+
+        .left {
+            font-size: 1.5rem;
+            font-family: 'dancing script';
+            margin-right: 150px;
+        }
+
+        .cont {
+            position: absolute;
+            top: 140px;
+            left: 20px;
+            color: white;
+
+        }
+
+        .cont p {
+            margin-bottom: 40px;
+        }
+
+        form {
+            width: 90%;
+            max-width: 600px;
+            margin-top: 80px;
+
+        }
+
+        .input_form {
+            margin-bottom: 30px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            outline: 0;
+            border: 1px solid#fff;
+            background: transparent;
+            font-size: 15px;
+            color: white;
+        }
+
+        label {
+            color: white;
+        }
+
+        button {
+            color: #fff;
+            outline: none;
+            box-shadow: 0 0 5px cyan;
+            background: transparent;
+            border: 1px solid #fff;
+            width: 100%;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .row .input_form {
+            flex-basis: 48%;
+        }
+
+        footer {
+            height: 150px;
+            background-color: #002730;
+            padding: 30px;
+        }
+
+        .footer {
+
+            display: flex;
+            margin: 0px 122px;
+            text-align: center;
+            justify-content: space-evenly;
+            color: white;
+        }
+
+        .footer4 {
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="format">
+        <div class="head">
+            <div class="left">
+                RITESH'S PORTFOLIO
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:3000/home.html"> HOME</a></li>
+                    <li><a href="http://127.0.0.1:3000/about.html">ABOUT</a></li>
+                    <li><a href="http://127.0.0.1:3000/g.html"> PASSION GALLERY</a></li>
+                    <li> <a href="http://127.0.0.1:3000/resume.html"> RESUME</a></li>
+                    <li><a href="http://127.0.0.1:3000/contact.html"> CONTACT ME</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cont">
+            <p>CONTACT :- 6006024195</p>
+            <p>EMAIL :- rainaritesh26@gmail.com</p>
+            <p>ADRESS :</p>
+            <P>HOUSE/AREA :- H.NO.25, SEC1, EWS COLONY </P>
+            <P>CITY :- ROOP NAGAR</P>
+            <P>DISTRICT :- JAMMU</P>
+            <P>STATE :- JAMMU & KASHMIR</P>
+        </div>
+        <form>
+            <div class="row">
+                <div class="input_form">
+                    <input type="text" id="name" required>
+                    <label for="name">YOUR NAME</label>
+                </div>
+
+                <div class="input_form">
+                    <input type="text" id="number" required>
+                    <label for="number">PHONE NO.</label>
+                </div>
+            </div>
+
+
+            <div class="input_form">
+                <input type="email" id="email" required>
+                <label for="email">EMAIL ID</label>
+            </div>
+
+     <div  class="input_form">
+
+        <label for="STATE/UT">STATE</label>
+            <select id="STATE/UT" name="STATE">
+                <option value="INVALID">ENTER STATE</option>
+                <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+                <option value="ARUNACHAL PRADESH">ARUNACHAL PARDESH</option>
+                <option value="ASSAM">ASSAM</option>
+                <option value="ANDAMAN AND NICOBAR">ANDAMAN AND NICOBAR</option>
+                <option value="BIHAR">BIHAR</option>
+                <option value="CHATTISGRAH">CHATTISGRAH</option>
+                <option value="CHANDIGARH">CHANDIGARH</option>
+                <option value="DELHI">DELHI</option>
+                <option value="DAMAN AND DIU">DAMAN AND DIU</option>
+                <option value="LAKSHADWEEP">LAKSHWADWEEP</option>
+                <option value="LADAKH">LADAKH</opLADAKH
+                <option value="GOA">GOA</option>
+                <option value="GUJARAT">GUJARAT</option>
+                <option value="HARYANA">HARYANA</option>
+                <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>
+                <option value="JHARKHAND">JHARKHAND</option>
+                <option value="JAMMU&KASHMIR">JAMMU&KASHMIR</option>
+                <option value="KARNATAKA">KARNATAKA</option>
+                <option value="KERELA">KERELA</option>
+                <option value="MADHYA PRADESH">MADHYA PRADESH</option>
+                <option value="MAHARASHTRA">MAHARASHTRA</option>
+                <option value="MANIPUR">MANIPUR</option>
+                <option value="MEGHALAYA">MEGHALAYA</option>
+                <option value="MIZORAM">MIZORAM</option>
+                <option value="NAGALAND">NAGALAND</option>
+                <option value="ODISSA">ODISSA</option>
+                <option value="PUNJAB">PUNJAB</option>
+                <option value="PUDUCHERRY">PUDUCHERRY</option>
+                <option value="RAJASTHAN">RAJASTHAN</option>
+                <option value="SIKKIM">SIKKIM</option>
+                <option value="TAMIL NADU">TAMIL NADU</option>
+                <option value="TELANGANA">TELANGANA</option>
+                <option value="TRIPURA">TRIPURA</option>
+                <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+                <option value="UTTARAKHAND">UTTARAKHAND</option>
+                <option value="WEST BENGAL">WEST BENGAL</option>
+              </select>
+           
+
+
+            </div>
+
+            <div class="input_form">
+                <textarea id="message" rows="8"></textarea>
+                <label for="message">YOUR MESSAGE</label>
+            </div>
+
+            <div class="input_form">
+                <label>SELECT FILE TYPE</label>
+                <div class="row">
+                    <label>
+                        <input type="radio" name="message" value="TEXT" required>
+                        TEXT
+                    </label>
+                    <label>
+                        <input type="radio" name="message" value="IMAGE" required>
+                        IMAGE
+                    </label>
+                    <label>
+                        <input type="radio" name="message" value="WORDFILE" required>
+                        WORDFILE
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="input_form">
+                <input type="file" id="file" name="file">
+                <label for="file">UPLOAD QUERY FILE</label>
+
+            </div>
+
+
+            <div>
+                <button type="submit"> SUBMIT</button>
+            </div>
+
+        </form>
+
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer1">
+                <h3>RITESH PORTFOLIO</h3>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <li>HOME </li>
+                    <li>ABOUT </li>
+                    <li>GALLERY </li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <ul>
+                    <li>HOME </li>
+                    <li>ABOUT </li>
+                    <li>GALLERY </li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer4">
+            WWW.RITESH-PORTFOLIO.COM
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
